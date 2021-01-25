@@ -1,0 +1,6 @@
+name: Eventy
+version: 1.0
+main: me.Thom.events.Main
+commands:
+  cmd:
+    description: desc
