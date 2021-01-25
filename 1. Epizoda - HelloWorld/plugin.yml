@@ -1,0 +1,8 @@
+name: HelloWorld
+version: 1.0
+author: Thom
+description: Toto je zdravici plugin
+main: me.Thom.hello.Main
+commands:
+  hello:
+    description: Tento prikaz te pozdravi
