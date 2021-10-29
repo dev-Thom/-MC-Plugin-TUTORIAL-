@@ -18,7 +18,7 @@ public class Main extends JavaPlugin {
 		Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&2&lPlugin HelloWorld byl vypnut!")); //Při vypnutí serveru napíše do konzole "Plugin HelloWorld byl vypnut!"
 	}
 	
-	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) { //Metoda onCommand(), může se jmenovat jakkoliv
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) { //Metoda onCommand(), aktivuje se, když hráč napíše "/" do chatu
 		
 		if (sender instanceof Player) { //Zkontroluje, zda je sender hráč 
 			Player p = (Player) sender; //Hráč sender uložen v proměnné "p"
